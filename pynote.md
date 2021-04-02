@@ -95,3 +95,7 @@ fname,fename=os.path.splitext('/home/ubuntu/python_coding/split_func/split_funct
 # fname is:/home/ubuntu/python_coding/split_func/split_function
 #fename is:.py
 ```
+
+## torch.nn.functional.pad
+
+dim : 从最后一维开始往回数，每两个数pad一个维度。
