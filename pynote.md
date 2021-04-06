@@ -99,3 +99,9 @@ fname,fename=os.path.splitext('/home/ubuntu/python_coding/split_func/split_funct
 ## torch.nn.functional.pad
 
 dim : 从最后一维开始往回数，每两个数pad一个维度。
+
+## os.path.join()
+```py
+print os.path.join('/111','/222','333') #/222/333
+```
+从倒数第一个，以‘/’开头的参数开始拼接，之前的参数全部丢弃。
